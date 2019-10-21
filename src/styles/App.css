@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.output {
+  width: 25%;
+  height: 6vh;
+  border: solid;
+  border-width: thin;
+  text-align: right;
+}
+
+.output p, small {
+  padding: 0;
+  margin: 0;
+}
+
+.button-list {
+  width: 25%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}
+
+.button-list button {
+  border: solid;
+  border-width: thin;
+  padding: 10px;
+  width: 25%;
+  background-color: gray;
+  cursor: pointer;
+}
